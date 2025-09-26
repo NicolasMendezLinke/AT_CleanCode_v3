@@ -59,7 +59,6 @@ public class Main {
             System.out.println("Erro inesperado: " + e.getMessage());
         }
 
-        // ==== Frete Expresso ====
         System.out.println("\n=== TESTE 4: Frete Expresso sem promoções ===");
         try {
             Entrega entrega5 = new Entrega("Rua B, 200", 10, "Cliente 2");
@@ -109,9 +108,6 @@ public class Main {
             System.out.println("Erro inesperado: " + e.getMessage());
         }
 
-
-
-        // ==== Frete Econômico ====
         System.out.println("\n=== TESTE 7: Frete Econômico sem promoções ===");
         try {
             Entrega entrega9 = new Entrega("Rua C, 300", 10, "Cliente 3");
@@ -161,7 +157,6 @@ public class Main {
             System.out.println("Erro inesperado: " + e.getMessage());
         }
 
-        //Testes de validação de erros
         System.out.println("\n=== TESTE DE VALIDAÇÕES ===");
         try {
             new Entrega("", -1, null);
